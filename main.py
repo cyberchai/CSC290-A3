@@ -18,9 +18,9 @@ def init_set():
     while(comp not in ['w', 'b', 'white', 'black', 'wh', 'bl']):
         comp = input('Computer Player? (w=white/b=black): ')
     # starting_pos = input('Starting FEN position? (hit ENTER for standard starting position): ')
-    if 'w' in comp:
+    if 'b' in comp:
         print('You are playing as BLACK. The computer will start first.\n')
-    elif 'b' in comp:
+    elif 'w' in comp:
         print('You are playing as WHITE. Please begin the first move.\n')
     print('\n')
     return comp
