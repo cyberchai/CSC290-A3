@@ -133,9 +133,9 @@ def main():
     checkmate = False
     # turn tracker:
     if 'b' in comp:
-        i=1
-    else:
         i=0
+    else:
+        i=1
 
     # while(not checkmate):
     while(not board.is_game_over()):
@@ -152,3 +152,11 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+    """"
+    add:
+        - more clear movement ('White Queen moved c3 to c7)
+        - see list of 'taken' pieces
+        - make board more clear. UI graphics?
+        - potential bug -- won't let my pawn take opp. Queen (screenshotted)
+    """
