@@ -154,7 +154,7 @@ if __name__ == '__main__':
     main()
 
     """"
-    add:
+    extra:
         - more clear movement ('White Queen moved c3 to c7)
         - see list of 'taken' pieces
         - make board more clear. UI graphics?
